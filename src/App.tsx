@@ -31,10 +31,10 @@ const AnimatedSections = () => {
         <>
           <AboutSection />
           {/* <HeroSection />
-          <QutesSection />
           <Register />
           <NavBar />
           <TailwindIndicator /> */}
+           <QutesSection />
           <SpeakersSection />
           <CoreTeam />
           <Footer />
