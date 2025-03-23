@@ -19,19 +19,27 @@ const AnimatedSections = () => {
 
   return (
     <div class="h-screen w-screen bg-black text-white overflow-y-auto overflow-x-hidden">
-      
-        
+      {showTedxLogo() ? (
+        <div class="h-full w-full top-0 fixed">
+          <TedxLogo
+            onComplete={() => {
+              setShowTedxLogo(false);
+            }}
+          />
+        </div>
+      ) : (
+        <>
           <AboutSection />
           {/* <HeroSection />
-          <TailwindIndicator /> 
+          <QutesSection />
           <Register />
           <NavBar />
-          <QutesSection />*/}
+          <TailwindIndicator /> */}
           <SpeakersSection />
           <CoreTeam />
           <Footer />
-        
-      
+        </>
+      )}
     </div>
   );
 };
