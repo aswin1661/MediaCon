@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import DottedGridBackground from "./DottedGridBackground";
 import Submit from "./submit";
 import SlideInFromLeft  from "../utils/motion"
-import about from "@/assets/about.jpeg";
+import about from "@/assets/about1.webp";
 import about1 from "@/assets/about1.webp";
 import about2 from "@/assets/about2.jpeg";
 import about3 from "@/assets/about3.jpeg";
