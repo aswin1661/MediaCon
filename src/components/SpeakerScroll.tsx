@@ -13,7 +13,7 @@ export default function QutesSection() {
       {/* <div class="container py-20">
         <TextCombo theme="black" header="Speakers." sub="We present to you some of the most flamboyant and remarkable individuals who epitomize passion and perseverance to inspire, uplift, and empower you." />
       </div> */}
-      <div  class="flex flex-col gap-32 md:gap-20">
+      <div  class="flex flex-col mt-3 gap-32 md:gap-20">
         {speakers.map((speaker, index) => (
           <SpeakerQuote  position={index % 2 ? "right" : "left"} data={speaker} sub={speaker.sub}>
             {speaker.quote}
